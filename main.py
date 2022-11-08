@@ -9,8 +9,6 @@ def one():
         odd = []
         even = []
         mul_3 = 1
-        start_1 = []
-        end_1 = []
 
         for i in range(size):
             my_list.append(random.randint(begin,end))
@@ -29,7 +27,7 @@ def one():
 
         print(f'sum neg = {neg}\nsum odd = {sum(odd)}\nsum even = {sum(even)}')
         print(f'mul even 3 index = {mul_3}')
-        print(f'')
+
 
 
     except Exception as ex:
